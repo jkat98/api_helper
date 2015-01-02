@@ -1,0 +1,29 @@
+{
+  "name": "api_helper",
+  "version": "1.0.0",
+  "description": "Node.js API helper module",
+  "main": "api_helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkat98/api_helper.git"
+  },
+  "author": "Jason Krol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkat98/api_helper/issues"
+  },
+  "homepage": "https://github.com/jkat98/api_helper",
+  "dependencies": {
+    "request": "^2.51.0",
+    "url": "^0.10.2"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "proxyquire": "^1.3.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
+  }
+}
