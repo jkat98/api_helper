@@ -37,4 +37,11 @@ api.callAPI('users/list', 'GET', {}, function(err, body) {
 });
 ```
 
+## To Test:
+
+```
+$ npm install -g mocha
+$ mocha
+```
+
 Enjoy!
