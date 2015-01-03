@@ -24,7 +24,7 @@ Once configured, simply execute callAPI passing the following parameters:
 
 ```
 var api = require('../api_helper'),
-    config = require('./config');
+    config = require('./config.json');
 
 // call one-time during server bootstrap:
 api.configure(config);
