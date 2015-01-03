@@ -35,6 +35,18 @@ api.callAPI('users/list', 'GET', {}, function(err, body) {
         console.log(body);  // => data returned from API endpoint!
     }
 });
+
+
+/* config.json: ***
+{
+    "api": {
+        "scheme": "http",
+        "host": "api.somedomain.com",
+        "port": "8080",
+        "version": "v1"
+    }
+}
+*/
 ```
 
 ## To Test:
